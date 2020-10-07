@@ -12,17 +12,15 @@ function Section() {
 
 <div className="aside-right">
 
-<form>
+<form method="">
     <h4>Sign in</h4>
-    <label>Username</label>
-<input type="text" />
+    <label>Username: <br /><input type="text" /> </label>
 <br />
-<label>Password</label>
-<input type="password" />
 <br />
-<label>Always remember me</label>
-<input type="checkbox" />
+<label>Password: <br /><input type="password" /></label>
+
 <br />
+<p>Always remember me <input type="checkbox" class="form-check"/></p>
 <button >Login</button>
 
 </form>
