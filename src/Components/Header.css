@@ -1,0 +1,32 @@
+.header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: left;
+}
+
+.header-logo, .search-bar {
+    width: 50%;
+    justify-content: left;
+}
+
+.header-logo img {
+    width: 6%;
+    -webkit-filter: brightness(0) invert(1);
+ filter: brightness(0) invert(1);
+ margin: 2rem 5rem;
+}
+
+.search-bar input {
+    width: 25%;
+    font-size: 16px;
+    outline: none;
+    margin: 2rem 0;
+    border-radius: 20px;
+    border: none;
+    padding: .5rem 1.1rem;
+    margin-left: 65%;
+}
+

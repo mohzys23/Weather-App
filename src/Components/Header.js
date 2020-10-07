@@ -1,18 +1,21 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fa-cloud } from '@fortawesome/free-solid-svg-icons';
+import './Header.css';
+import img from '../Assets/logo.svg';
 
 
-
-const font = <FontAwesomeIcon icon={[ 'fas', 'fa-cloud'} />
-
- 
 
 function Header() {
     return(
 
-<div>
-{font}
+< div className = "header">
+    <div className="header-logo">
+       <img src={img} alt="" />
+    </div>
+
+<div className="search-bar">
+<input type="search" name="search bar" placeholder="Search" />
+</div>
+
 </div>
 
     );
