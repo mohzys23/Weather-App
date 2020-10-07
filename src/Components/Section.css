@@ -2,33 +2,41 @@
 .homeSection {
     display: flex;
     color: white;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .aside-left{
     width: 60%;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .aside-left h1 {
     width: 60%;
 font-size: 3rem;
-font-weight: 400;
+font-weight: 600;
 text-transform: uppercase;
 padding-left: 7rem;
 word-spacing: .1rem;
 letter-spacing: .2rem;
-padding-bottom: 2rem;
+    line-height: 10vh;
 }
 
 .aside-left p {
     width: 70%;
  padding-left: 7rem;
     font-size: 18px;
+    font-weight: 600;
+    padding-top: 1rem;
+    word-spacing: .1rem;
+}
+
+.aside-left img {
+    width: 12%;
+    padding-left: 7rem;
 }
 
 .aside-right {
     width: 40%;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .aside-right form {
@@ -36,43 +44,55 @@ padding-bottom: 2rem;
     border: none;
     border-radius: 10px;
     margin-left: 6rem;
-    color: white;
+    color: black;
     background-color: white;
     text-align: center;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,120,1) 100%, rgba(0,212,255,1) 100%);
+    
 }
+
 .form-check {
     width: 15px;
     height: 15px;
+    background: rgb(199, 44, 196);
 }
+
 form h4 {
     text-align: center;
     font-size: 18px;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    color: rgb(199, 44, 196);
 }
 
 form p {
-    font-size: 18px;
+    font-size: 16px;
+    color: rgb(199, 44, 196);
     padding: .5rem 0;
 }
 
 label {
     font-size: 18px;
+    color: rgb(199, 44, 196);
+    font-weight: 700;
 }
 
-input {
+form input {
     padding: .3rem 1rem;
     border-radius: 20px;
     outline: none;
     font-size: 16px;
+    color: rgb(199, 44, 196);
+    border: 1px solid rgb(199, 44, 196);
 }
 
 button {
     width: 30%;
     font-size: 18px;
-    padding: .5rem;
+    padding: .3rem;
     margin: 0 0 2rem 0;
     border-radius: 5px;
-    background-color:  rgb(255, 255, 255);
+    background-color:  rgb(199, 44, 196);
+    outline: none;
+    color: white;
+    border: none;
+   
 }

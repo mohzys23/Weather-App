@@ -13,7 +13,7 @@ function Header() {
     </div>
 
 <div className="search-bar">
-<input type="search" name="search bar" placeholder="Search" />
+<input type="search" name="search bar" placeholder="Search" aria-label="search bar" />
 </div>
 
 </div>
